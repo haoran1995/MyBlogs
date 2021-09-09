@@ -8,19 +8,21 @@
 	2.int 变量名B = 变量名A.nextInt();
 	3.用if语句进行比较
 */	
-import java.util.Scanner;
+import java.util.*;
 class If{
 	public static void main(String args[]){
 		
 		//输入语句
 		System.out.println("请键第一个值：");
 		Scanner a = new Scanner(System.in);
+		Float x = a.nextFloat();
 		System.out.println("请键第二个值：");
-		Scanner b = new Scanner(System.in);
 		
-		//强制转换成整数
-		int x = a.nextInt();
+		Scanner b = new Scanner(System.in);
 		int y = b.nextInt();
+	
+		
+	
 		
 		//IF语句进行比较
 		if(x > y){
