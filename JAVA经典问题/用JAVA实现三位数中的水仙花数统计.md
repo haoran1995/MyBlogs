@@ -43,3 +43,7 @@ class Flower{
 }
 ```
 
+运行结果：
+
+![](https://ldsoy.coding.net/p/PC/d/Img/git/raw/master/MDimg/202109092156355.png)
+
